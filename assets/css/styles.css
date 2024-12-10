@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Radikal-black";
+    src: url('../fonts/Radikal/RadikalTrial-Black.otf') format('opentype');
+    font-weight: 900; /* Black */
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "Radikal-bold";
+    src: url('../fonts/Radikal/RadikalTrial-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "Radikal-medium";
+    src: url('../fonts/Radikal/RadikalTrial-Medium.otf') format('opentype');
+    font-weight: 500; /* Medium */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Radikal-regular";
+    src: url('../fonts/Radikal/RadikalTrial-Regular.otf') format('opentype');
+    font-weight: normal; /* Regular */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Radikal-thin";
+    src: url('../fonts/Radikal/RadikalTrial-Thin.otf') format('opentype');
+    font-weight: 100; /* Thin */
+    font-style: normal;
+}
+
+
+
+/* Font classes */
+
+/* Radikal Black */
+.text-black {
+    font-family: "Radikal-black", sans-serif;
+    font-weight: 900; /* Black */
+}
+
+/* Radikal Bold */
+.text-bold {
+    font-family: "Radikal-bold", sans-serif;
+    font-weight: bold; /* Bold */
+}
+
+/* Radikal Medium */
+.text-medium {
+    font-family: "Radikal-medium", sans-serif;
+    font-weight: 500; /* Medium */
+}
+
+/* Radikal Regular */
+.text-regular {
+    font-family: "Radikal-regular", sans-serif;
+    font-weight: normal; /* Regular */
+}
+
+/* Radikal Thin */
+.text-thin {
+    font-family: "Radikal-thin", sans-serif;
+    font-weight: 100; /* Thin */
+}
+.item img {
+    width: unset;
+  }
+  
+.owl-stage {
+    display: flex !important;
+    align-items: center !important;
+  }
+  
+  
